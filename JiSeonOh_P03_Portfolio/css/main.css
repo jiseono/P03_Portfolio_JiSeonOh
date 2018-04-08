@@ -1,0 +1,328 @@
+/* IAT 339 D101 Ji Seon Oh 301184081
+This HTML5 Structure was adapted from IAT 339 Styleguide Template
+HTML&CSS Codes were learned from IAT 339 and from website https://www.w3schools.com
+*/
+
+
+/* Reset */
+* {
+     margin: 0;
+     padding: 0;
+     border: 0;
+}
+
+
+/* Basic Structures */
+body {
+  padding: 0rem;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lato'
+}
+
+section p {
+  font-family: 'Lato';font-size: 12px;
+}
+
+.logo {
+  margin-bottom: 3rem;
+}
+
+
+/* Navigation */
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    overflow: hidden;
+    background-color: #FFF;
+    top: 0;
+    width: 100%;
+}
+
+li {
+  display: inline;
+  float: center;
+}
+
+.navigation {
+  font-family: 'Bungee Hairline'
+}
+
+.button-nav {
+  display: inline;
+  padding: 1em;
+  color: gray;
+
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  color: #d8d064;
+}
+
+/* Footer */
+footer a{
+  display: block;
+  text-align: center;
+  color:#c69c6d;
+  margin: 1rem;
+  font-size: 0.8rem;
+}
+
+footer p{
+  font-size: 0.8rem;
+  color: gray;
+  text-align:center;
+  max-width:none;
+}
+
+footer {
+  font-family: 'Bungee Hairline'
+}
+
+.footer {
+  background-color: #f2edc7;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+
+
+
+
+/* About page */
+#main-page {
+  color: white;
+  text-align: center;
+  background-color: #d8d064;
+  margin-top: 15rem;
+  margin-bottom: 10rem;
+  padding: 12rem;
+}
+
+
+#about {
+  background-color: #e8e4a0;
+}
+
+.about-me {
+  color: white;
+  margin: 5rem;
+  padding: 5rem;
+}
+
+
+/* Smaller Screen Size */
+@media (max-width:454px) {
+
+  .project1 {
+    margin:0;
+  }
+
+  .project2 {
+    margin:0;
+  }
+
+  .about-me {
+    padding: 0;
+  }
+
+  .project1 img {
+    margin: 0 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .project2 img {
+    margin: 0 0;
+    width: 100%;
+    height: auto;
+  }
+
+  #main-page {
+    margin-top:15rem;
+    padding:6rem;
+  }
+
+  #main-page img{
+    margin: 0;
+    padding:0;
+    width: 20%;
+    height: auto;
+  }
+
+  .role-contents p{
+    margin:0;
+    padding:0;
+    width: 100%;
+  }
+
+  .about-me {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .about-me p {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+
+/* Main Page */
+
+/* Works page */
+#work {
+  margin-top: 17rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+#work p{
+  text-align: left;
+}
+
+#work h2{
+  margin-top: 5rem;
+}
+
+.project1 {
+  color: #d6c956;
+}
+
+.project1 img{
+  display: inline-block;
+  width: 70%;
+}
+
+.project2 {
+  color: #d6c956;
+}
+
+.project1 h2{
+  margin-bottom: 1.5rem;
+}
+
+
+.project2 img{
+  display: inline-block;
+  width: 30%;
+}
+
+.project2 h2{
+  margin-bottom: 2rem;
+}
+
+/* Project1 Detailed Page */
+#page-project1 {
+  text-align: center;
+  margin-top: 16rem;
+
+}
+
+#page-project1 img {
+  width: 70%;
+}
+
+#project-intro {
+  color: white;
+  background-color: #d8d064;
+  padding-right: 30rem;
+  padding-left: 15rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin:0.2rem;
+  margin-bottom: 5rem;
+}
+
+#project-intro h3{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  margin-top: 5rem;
+}
+
+/* Project2 Detailed Page  */
+#project-contents {
+  color: #d8d064;
+  padding-right: 30rem;
+  padding-left: 15rem;
+  padding-bottom: 5rem;
+  margin: 0.2rem;
+  margin-bottom: 10rem;
+}
+
+#project-contents img{
+  width: 90%;
+}
+
+#project-contents h3{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#project-contents p{
+  margin-top: 2rem;
+}
+
+/* About Page */
+#about {
+  margin-top: 20rem;
+  background-color: #d8d064;
+  color:white;
+  paddint: 10rem;
+  margin-bottom: 10rem;
+}
+
+#about h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#about p {
+
+  margin-bottom: 1rem;
+}
+
+
+/* Styleguide page */
+.styleguide-template {
+  margin-top: 16rem;
+}
+
+.styleguide-template h1 {
+  color: #d8d064;
+}
+
+.styleguide-template p {
+  color: gray;
+}
+
+.navigation-style {
+  margin-top: 2rem;
+}
+
+.navigation-style h2, h3 {
+  color: #d8d064;
+}
+
+.navigation-style p, code {
+  color: gray;
+}
